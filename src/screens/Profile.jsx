@@ -41,6 +41,8 @@ const Profile = ({navigation}) => {
             </View>
           </ImageBackground>
 
+          console.log('merci');
+
           <View style={styles.profile.body.container}>
             <TouchableOpacity onPress={() => navigation.navigate('MyEvent')} style={styles.profile.body.onglet}>
               <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
