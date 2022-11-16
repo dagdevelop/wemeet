@@ -3,7 +3,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import MenuBottom from "./MenuBottom";
 import Login from "../screens/Login";
 import Registration from "../screens/Registration";
-import HamburgerMenu from "./HamburgerMenu";
+// import HamburgerMenu from "./HamburgerMenu";
 
 const Stack = createNativeStackNavigator();
 
@@ -21,11 +21,10 @@ const ConnectionStack = () => {
         name='Registration'
         component={Registration}
         options={{ title: 'Registration', headerShown: false}}
-
       />
       <Stack.Screen
         name='Home'
-        component={HamburgerMenu}
+        component={MenuBottom}
         options={{ title: 'Home', headerShown: false, gestureEnabled: false }}
 
       />

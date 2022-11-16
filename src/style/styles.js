@@ -154,8 +154,8 @@ export const styles = StyleSheet.create({
     },
     event_component: {
         container: {
-            alignItems: 'left',
-            justifyContent: 'left',
+            alignItems: 'flex-start',
+            justifyContent: 'flex-start',
             marginTop: 20,
             marginBottom: 20,
             width: Dimensions.get("window").width,
@@ -178,7 +178,6 @@ export const styles = StyleSheet.create({
         label: {
             fontWeight: 'bold',
             fontSize: 26,
-            fontWeight: 'small',
             color: 'black'
         },
         description: {
